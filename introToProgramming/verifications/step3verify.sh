@@ -1,1 +1,1 @@
-javac HelloWorld.java && (( $(java HelloWorld | wc -1) == 1 )) && echo "done"
+javac HelloWorld.java && (( $(java HelloWorld | wc -l) == 1 )) && echo "done"
