@@ -9,6 +9,10 @@
         "title": "Welcome!",
         "text": "step1.md",
         "verify": "verifications/step1verify.sh"
+      },
+      {
+        "title": "Make it work.",
+        "text": "step2.md"
       }
     ],
     "intro": {
