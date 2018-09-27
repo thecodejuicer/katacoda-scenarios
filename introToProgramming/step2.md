@@ -26,4 +26,6 @@ Side note before we continue: you may have noticed the lines starting with `//`.
 Compile your program again (`javac HelloWorld.java`{{execute}}). It should compile without any problem. If you get an error, make sure you aren&apos;t missing something like a &ldquo;curly brace:&rdquo; `{` or `}`.
 _(This has to work before you can move on to the next step)_
 
-When it compiles you can run it again (`java HelloWorld`{{execute}}) to find there is no error. There is also no output. That&apos;s next.
+When it compiles you can run it again (`java HelloWorld`{{execute}}) to find there is no error. 
+
+There is also no output. That&apos;s next.
