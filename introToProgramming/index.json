@@ -12,7 +12,8 @@
       },
       {
         "title": "Make it work.",
-        "text": "step2.md"
+        "text": "step2.md",
+        "verify": "verifications/step1verify.sh"
       }
     ],
     "intro": {

@@ -9,8 +9,7 @@ It isn't terribly exciting. But, it does give us a chance to talk about some imp
 Since we're using Java&trade;, there are a few things every program need. In your editor is a blank file named <code>HelloWorld.java</code>.
 The first thing it needs is a <code>class</code> definition. Make it look like this:
 <pre class="file">
-public class HelloWorld {
-}
+public class HelloWorld {}
 </pre>
 
 Try compiling it by typing `javac HelloWorld.java`{{execute}} into the terminal. Make sure you press enter to execute the command.
