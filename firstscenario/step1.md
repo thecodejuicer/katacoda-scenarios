@@ -13,4 +13,12 @@ public class HelloWorld {
 }
 </pre>
 
-This doesn't do a whole lot (yet). Let's change that...
+Try compiling it by typing `javac HelloWorld.java`{{execute}} into the terminal. Make sure you press enter to execute the command.
+
+If you typed everything correctly, it will compile your `.java` file into a `.class` file. 
+If you try opening it in the file editor (don't edit it!), you'll notice it looks strange. 
+This is the Java&trade; bytecode that the Java Virtual Machine can run. 
+
+Try running it by typing `java HelloWorld`{{execute}} into the terminal to see what happens&hellip;
+
+Yeah. It's an error. We'll talk about that in the next step.
