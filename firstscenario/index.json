@@ -1,19 +1,13 @@
 {
-  "title": "First Scenario",
-  "description": "This is a test scenario.",
+  "title": "Learning to Program (with Java 8)",
+  "description": "In introduction to programming computers using Java",
+  "difficulty": "Beginner",
+  "time": "5-10 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Welcome!",
         "text": "step1.md"
-      },
-      {
-        "title": "Step 2",
-        "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
       }
     ],
     "intro": {
@@ -23,8 +17,14 @@
       "text": "finish.md"
     }
   },
+  "files": [
+    "HelloWorld.java"
+  ],
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "uisettings": "java",
+    "icon": "fa-java",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
   },
   "backend": {
     "imageid": "java8"
