@@ -1,9 +1,10 @@
 You should have seen this in the previous step:
-<pre>
+
+```
 Error: Main method not found in class HelloWorld, please define the main method as:
    public static void main(String[] args)
 or a JavaFX application class must extend javafx.application.Application
-</pre>
+```
 
 Although the code is valid, we have not created a _valid_ Java application. 
 The virtual machine is nice enough to give us a hint about the problem&mdash;we are missing the entry point for the program. `public static void main(String[] args)` is the first method the Java virtual machine runs (more about methods later). 
