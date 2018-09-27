@@ -6,7 +6,7 @@ Because almost every book, tutorial and course in the world of computer programm
 What, you ask, is &ldquo;Hello, World!&rdquo; anyhow? It simply prints &ldquo;Hello, World!&rdquo; to the screen.
 It isn't terribly exciting. But, it does give us a chance to talk about some important fundamentals.
 
-Since we're using Java&trade;, there are a few things every program need. In your editor is a blank file named <code>HelloWorld.java</code>.
+Since we're using Java&trade;, there are a few things every program needs. In your editor is a blank file named <code>HelloWorld.java</code>.
 The first thing it needs is a <code>class</code> definition. Make it look like this:
 <pre class="file">
 public class HelloWorld {}
@@ -15,9 +15,8 @@ public class HelloWorld {}
 Try compiling it by typing `javac HelloWorld.java`{{execute}} into the terminal. Make sure you press enter to execute the command.
 
 If you typed everything correctly, it will compile your `.java` file into a `.class` file. 
-If you try opening it in the file editor (don't edit it!), you'll notice it looks strange. 
-This is the Java&trade; bytecode that the Java Virtual Machine can run. 
+This is the [Java&trade; bytecode](https://www.javaworld.com/article/2077233/core-java/bytecode-basics.html "Java Bytecode Information") file. 
 
-Try running it by typing `java HelloWorld`{{execute}} into the terminal to see what happens&hellip;
+Run it in the terminal by typing `java HelloWorld`{{execute}} to see what happens&hellip;
 
 Yeah. It's an error. We'll talk about that in the next step.
