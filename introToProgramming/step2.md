@@ -2,7 +2,7 @@ Let&apos;s take the source apart to explain some concepts.
 
 ## Keywords
 All languages have `keywords`. These are the vocabulary the compiler understands. They have special meaning. The Hello World program uses four of them:
-`public`, `class`, `void`, and `static`. I'm not going to explain them all here. We will come back to that.
+`public`, `class`, `void`, and `static`. I&apos;m not going to explain them all here. We will come back to that.
 
 ## Identifiers
 Turn your attention to this line of code:
@@ -32,8 +32,10 @@ Take a look at the section of code that does the heavy lifting:
 <pre class="file">
 System.out.println("Hello, World!");
 </pre>
-`"Hello, World!"` is a &quot;String Literal.&quot; What we would normally call a &quot;sentence&quot; in our vocabulary, is called a &quot;string&quot; in programmer speak. Why? Someone though themselves clever I suppose. It is one or more &quot;characters&quot; strung together.
+`"Hello, World!"` is a &quot;String Literal.&quot; 
+What we would normally call a &quot;sentence&quot; in our vocabulary, is called a &quot;string&quot; in programmer speak. 
+Why? Someone thought themselves clever I suppose. It is one or more &quot;characters&quot; strung together.
 
 And in this case, it is a literal value. It is what it is. It cannot be anything other than &quot;Hello, World!&quot;
 
-Hey, what a great segue into discussing variables! Go on, click the `Continue` button.
+Hey, what a great time to discuss variables! Go on, click the `Continue` button.
