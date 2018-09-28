@@ -14,15 +14,6 @@
         "title": "What Does it Mean?",
         "text": "step2.md",
         "verify": "verifications/step1verify.sh"
-      },
-      {
-        "title": "Make it useful.",
-        "text": "step3.md",
-        "verify": "verifications/step3verify.sh"
-      },
-      {
-        "title": "Variables.",
-        "text": "step4.md"
       }
     ],
     "intro": {
