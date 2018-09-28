@@ -5,7 +5,7 @@ Enter variables! A variable is simply a named object (identifier) that holds a v
 
 The HelloWorld program does have one variable in it. We didn&apos;t use it, but it&apos;s there:
 <pre class="file">String[] args</pre>
-`args` is the variable&apos;s name (identifier), and `String[]` is the _type_ of data it can hold. In this case, it is an array of Strings (the square brackets here are a special notation defining an array: more on this later).
+`args` is the variable&apos;s name (identifier), and `String[]` is the *type* of data it can hold. In this case, it is an array of Strings (the square brackets here are a special notation defining an array: more on this later).
 
 Let&apos;s alter the program to ask us our name and then greet us appropriately. Replace `System.out.println("Hello, World!");` with some new lines of code:
 <pre class="file">
@@ -25,7 +25,9 @@ The program just got a little more exciting&hellip; right? It will say your name
 
 Now we&apos;re getting fancy, using a new variable named `yourName`. We don&apos;t have to type our name multiple times. We don&apos;t have to tell the program what it is ahead of time. It asks, and then uses what we give it.
 
-Go ahead and try it out. Compile HelloWorld.java one more time. In case you forgot how, type `javac HelloWorld.java`{{execute}}. Then run it (hint: `java HelloWorld`{{execute}}).
+Go ahead and try it out. Compile HelloWorld.java one more time. In case you forgot how, type `javac HelloWorld.java`{{execute}}. 
+
+After it compiles, run it (hint: `java HelloWorld`{{execute}}).
 
 If your program didn&apos;t compile, make sure it looks similar to this:
 <pre class="file">
@@ -48,7 +50,7 @@ public class HelloWorld
 ## Comments
 You may have noticed something new here (I hope). Lines that start with `//`. These are called single-line or inline comments. 
 Everything from `//` to the end of the line, is ignored by the compiler.
-They are for the programmer to help clarify what code is doing. There are other uses, but that won'&apos;t be covered here.
+They are for the programmer to help clarify what code is doing. There are other uses, but that won&apos;t be covered here.
 
 Java also has multiline comments (also called c-style) comments. They look like this:
 <pre class="file">
@@ -57,5 +59,5 @@ Java also has multiline comments (also called c-style) comments. They look like 
    This is the end of the comment. */
 </pre>
 
-Everything between `/*` and `*\ ` is ignored by the compiler.
+Everything between `/*` and `*/ ` is ignored by the compiler.
 
