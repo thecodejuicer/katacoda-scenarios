@@ -11,7 +11,7 @@
         "verify": "verifications/step1verify.sh"
       },
       {
-        "title": "Make it work.",
+        "title": "What Does it Mean?",
         "text": "step2.md",
         "verify": "verifications/step1verify.sh"
       },
@@ -31,6 +31,14 @@
     "finish": {
       "text": "finish.md"
     }
+  },
+  "assets": {
+    "client": [
+      {
+        "file": "assets/HelloWorld.java",
+        "target": "~/"
+      }
+    ]
   },
   "files": [
     "HelloWorld.java"
