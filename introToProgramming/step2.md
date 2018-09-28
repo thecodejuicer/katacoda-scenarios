@@ -1,31 +1,39 @@
-You should have seen this in the previous step:
+Let&apos;s take the source apart to explain some concepts.
 
-```
-Error: Main method not found in class HelloWorld, please define the main method as:
-   public static void main(String[] args)
-or a JavaFX application class must extend javafx.application.Application
-```
+## Keywords
+All languages have `keywords`. These are the vocabulary the compiler understands. They have special meaning. The Hello World program uses four of them:
+`public`, `class`, `void`, and `static`. I'm not going to explain them all here. We will come back to that.
 
-Although the source code is valid, it is not a _valid_ Java application. 
-The virtual machine is nice enough tell us the problem&mdash;we are missing the entry point for the program. `public static void main(String[] args)` is the first method the Java virtual machine runs (more about methods later). 
-
-Add it inside the class like so:
+## Identifiers
+Turn your attention to this line of code:
 <pre class="file">
-public class HelloWorld {
+public class HelloWorld 
+</pre>
+Here, `HelloWorld` is an &ldquo;**Identifer**.&rdquo; Identifiers are simply names the programmer gives to something, so it can be referred to other places in the program. In this case, we are naming our `class` HelloWorld.
 
-  // This is the program entry point.
-  public static void main(String[] args) {  
-    // TODO: We'll put more here in a moment.
-  }
-  
+In Java, **identifers** are used to name variables, classes, interfaces, packages, and methods. Don&apos;t worry if you don&apos;t know what some of those terms are. It will be covered.
+
+## Code Blocks
+The &quot;curly braces&quot; (`{` and `}`) surround logical blocks of code. It tells the compiler where a section of code begins and ends. Different languages may use different ways to define blocks, but they all serve the same purpose.
+
+In the case of our simple Hello World program,
+<pre class="file">
+public class HelloWorld
+{
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
 }
-</pre> 
+</pre>
+can be read as &quot;The `main` **method** belongs to my HelloWorld class, and `main` contains the code to print my message.&quot;
 
-Side note before we continue: you may have noticed the lines starting with `//`. These are just comments. The compiler ignores them. They are for the programmer. Yes, we'll talk more about this later.
+## Values
+Take a look at the section of code that does the heavy lifting:
+<pre class="file">
+System.out.println("Hello, World!");
+</pre>
+`"Hello, World!"` is a &quot;String Literal.&quot; What we would normally call a &quot;sentence&quot; in our vocabulary, is called a &quot;string&quot; in programmer speak. Why? Someone though themselves clever I suppose. It is one or more &quot;characters&quot; strung together.
 
-Compile your program again (`javac HelloWorld.java`{{execute}}). It should compile without any problem. If you get an error, make sure you aren&apos;t missing something like a &ldquo;curly brace:&rdquo; `{` or `}`.
-_(This has to work before you can move on to the next step)_
+And in this case, it is a literal value. It is what it is. It cannot be anything other than &quot;Hello, World!&quot;
 
-When it compiles you can run it again (`java HelloWorld`{{execute}}) to find there is no error. 
-
-There is also no output. That&apos;s next.
+Hey, what a great segue into discussing variables! Go on, click the `Continue` button.

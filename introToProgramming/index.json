@@ -12,8 +12,7 @@
       },
       {
         "title": "What Does it Mean?",
-        "text": "step2.md",
-        "verify": "verifications/step1verify.sh"
+        "text": "step2.md"
       }
     ],
     "intro": {
@@ -22,14 +21,6 @@
     "finish": {
       "text": "finish.md"
     }
-  },
-  "assets": {
-    "client": [
-      {
-        "file": "assets/HelloWorld.java",
-        "target": "~/"
-      }
-    ]
   },
   "files": [
     "HelloWorld.java"
