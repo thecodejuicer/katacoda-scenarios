@@ -46,6 +46,16 @@ public class HelloWorld
 </pre>
 
 ## Comments
-You may have noticed something new here (I hope). Lines that start with `//`. These are called comments.
-The compiler completely ignores them. They are used for the programmer to help clarify what code is doing (normally).
+You may have noticed something new here (I hope). Lines that start with `//`. These are called single-line or inline comments. 
+Everything from `//` to the end of the line, is ignored by the compiler.
+They are for the programmer to help clarify what code is doing. There are other uses, but that won'&apos;t be covered here.
+
+Java also has multiline comments (also called c-style) comments. They look like this:
+<pre class="file">
+/* Hi. I'm a comment.
+   I'm still part of the comment.
+   This is the end of the comment. */
+</pre>
+
+Everything between `/*` and `*\ ` is ignored by the compiler.
 

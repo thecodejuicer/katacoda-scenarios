@@ -1,8 +1,8 @@
 {
-  "title": "Learning to Program (with Java 8)",
-  "description": "In introduction to programming computers using Java",
+  "title": "Introduction to Programming - Part 1",
+  "description": "An introduction to programming computers using Java",
   "difficulty": "Beginner",
-  "time": "5-10 minutes",
+  "time": "10-15 minutes",
   "details": {
     "steps": [
       {
@@ -15,7 +15,7 @@
         "text": "step2.md"
       },
       {
-        "title": "Doing Something Intersting",
+        "title": "Doing Something Interesting",
         "text": "step3.md"
       }
     ],
