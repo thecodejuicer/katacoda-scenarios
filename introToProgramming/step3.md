@@ -5,7 +5,7 @@ Enter variables! A variable is simply a named object (identifier) that holds a v
 
 The HelloWorld program does have one variable in it. We didn&apos;t use it, but it&apos;s there:
 <pre class="file">String[] args</pre>
-`args` is the variable&apos;s name (identifier), and `String[]` is the *type* of data it can hold. In this case, it is an array of Strings (the square brackets here are a special notation defining an array: more on this later).
+`args` is the variable&apos;s name (identifier), and `String[]` is the type of data it can hold. In this case, it is an array of Strings (the square brackets here are a special notation defining an array: more on this later).
 
 Let&apos;s alter the program to ask us our name and then greet us appropriately. Replace `System.out.println("Hello, World!");` with some new lines of code:
 <pre class="file">

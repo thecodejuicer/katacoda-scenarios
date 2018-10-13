@@ -1,0 +1,36 @@
+{
+  "title": "Introduction to Programming - Part 2",
+  "description": "Here, we dig into \"identifiers\" and talk about variables.",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "assets/NameThatThing.java",
+          "target": "~/"
+        },
+        {
+          "file": "assets/ShapePrinter.java",
+          "target": "~/"
+        }
+      ]
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "java8"
+  }
+}
