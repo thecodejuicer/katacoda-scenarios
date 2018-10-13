@@ -1,6 +1,6 @@
-# What\'s In  a Name?
+# What's In  a Name?
 "A rose by any other name would smell as sweet&hellip;" except in programming.
-When it comes to code, using good identifiers is _really_ important. It\'s important for readability, preventing certain kinds of bugs, and for maintainability.
+When it comes to code, using good identifiers is _really_ important. It's important for readability, preventing certain kinds of bugs, and for maintainability.
 
 The programming language determines what a valid identifier is. Some have silly rules like "It must be a single, capital letter." Some are very generous and allow just about anything, leaving it up to the discretion of the programmer.
 
@@ -31,7 +31,7 @@ In all this hubbub there are only four identifiers:
 3. "args" (the "main" method String[] argument identifier)
 4. "yourName" (a String variable identifier)
 
-All of these identifiers have a good name (at least in my opinion). Here\'s why:
+All of these identifiers have a good name (at least in my opinion). Here's why:
 - "HelloWorld" is descriptive enough about what it contains: the Hello World program.
 - "args" is an acceptable abbreviation for "arguments"
 - "yourName" gives you a blatant hint about what it should refer to.
@@ -45,7 +45,7 @@ In Java, valid names:
 - Cannot be a keyword
 
 #### Valid Identifiers
-These are examples of valid identifiers. They aren\'t all &quot;_good_,&quot; but they\'re all valid.
+These are examples of valid identifiers. They aren't all &quot;_good_,&quot; but they're all valid.
 ```
 thisIsAChicken
 _thisIsAlsoAChicken
@@ -72,7 +72,7 @@ It has 3 missing identifiers:
 
 Your task: replace the name placeholder (/* identifier # */) with a valid name.
 
-Once they are filled in, compile the program and run it. If it doesn\'t compile, make sure the identifiers are valid.
+Once they are filled in, compile the program and run it. If it doesn't compile, make sure the identifiers are valid.
 
 Remember:  
 To compile, type `javac NameThatThing.java` in the terminal.  
