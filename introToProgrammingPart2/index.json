@@ -14,11 +14,11 @@
     "assets": {
       "client": [
         {
-          "file": "assets/NameThatThing.java",
+          "file": "NameThatThing.java",
           "target": "~/"
         },
         {
-          "file": "assets/ShapePrinter.java",
+          "file": "ShapePrinter.java",
           "target": "~/"
         }
       ]
