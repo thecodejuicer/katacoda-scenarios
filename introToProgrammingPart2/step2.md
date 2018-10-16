@@ -52,7 +52,7 @@ Option 3: increment operator (++)
     // This increments the value of the identifier by one.
     notLong++;
 </pre>
-*__Note__*: You can also prefix the increment operator like this: `++notLong;` More discussion on this in a later lesson.
+You can also prefix the increment operator like this: `++notLong;` More discussion on this in a later lesson.
 
 Finally, on a new line (yes, Enter again), print out the value with `System.out.println(notLong);`
 
