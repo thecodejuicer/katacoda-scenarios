@@ -15,10 +15,6 @@
     "assets": {
       "client": [
         {
-          "file": "NameThatThing.java",
-          "target": "/home/scrapbook/tutorial"
-        },
-        {
           "file": "ShapePrinter.java",
           "target": "/home/scrapbook/"
         }
@@ -28,6 +24,9 @@
       "text": "finish.md"
     }
   },
+  "files" : [
+    "NameThatThing.java"
+  ],
   "environment": {
     "uilayout": "editor-terminal",
     "uisettings": "java",

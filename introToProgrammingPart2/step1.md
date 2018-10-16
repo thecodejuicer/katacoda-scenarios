@@ -66,7 +66,7 @@ class               // can't use a keyword
 Time to practice.
 
 Copy this to the editor:
-<pre class="file" data-filename="NameThatThing.js" data-target="replace">/**
+<pre class="file" data-filename="NameThatThing.java" data-target="replace">/**
  * A simple exercise in naming identifiers.
  * Give each missing identifier a valid name.
  */
