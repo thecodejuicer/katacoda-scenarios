@@ -33,7 +33,7 @@ In the editor window, open `NumberFun.java`. Just click the filename to the righ
 Declare a new `short` variable with a value of 32767 inside the "main" method. Hint: it says `// Put your code here.` where you should declare it. Follow the example above as a guide.
 
 Next, on a new line (press Enter), add 1 to the value of your variable. 
-There are a few ways to do that (try all of them). I'll stick with the `notLong` identifier. Replace it with whatever you named your variable.  
+There are a few ways to do that (try all of them). I'll use the `notLong` identifier name. Replace it with whatever you named your variable.  
 
 Option 1: a normal assignment operation
 <pre class="file">
