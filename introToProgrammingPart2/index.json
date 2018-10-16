@@ -15,7 +15,7 @@
       "client": [
         {
           "file": "NameThatThing.java",
-          "target": "/home/scrapbook/"
+          "target": "/home/scrapbook/tutorial"
         },
         {
           "file": "ShapePrinter.java",
