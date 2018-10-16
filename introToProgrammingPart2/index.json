@@ -7,6 +7,10 @@
         "title": "Identifiers",
         "text": "step1.md",
         "answer": "solutions/NameThatThing.md"
+      },
+      {
+        "title": "Data Types",
+        "text": "step2.md"
       }
     ],
     "intro": {

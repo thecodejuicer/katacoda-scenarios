@@ -1,4 +1,3 @@
-# Data Types
 There are two kinds of data types in Java: &quot;primitive&quot; and &quot;reference&quot;. Let's start with primitive types.
 
 ## Primitive Data Types
