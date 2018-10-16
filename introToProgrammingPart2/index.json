@@ -27,9 +27,6 @@
       "text": "finish.md"
     }
   },
-  "files": [
-    "NameThatThing.java"
-  ],
   "environment": {
     "uilayout": "editor-terminal",
     "uisettings": "java",
