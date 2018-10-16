@@ -57,8 +57,8 @@ You can also prefix the increment operator like this:
     // Prefix increment
     ++notLong;
 </pre> 
-More discussion on this in a later lesson.
-
+More discussion on this in a later lesson.  
+  
 Finally, on a new line (yes, Enter again), print out the value with 
 <pre class="file">
     System.out.println(notLong);
