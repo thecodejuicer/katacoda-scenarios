@@ -27,8 +27,13 @@
       "text": "finish.md"
     }
   },
+  "files": [
+    "NameThatThing.java"
+  ],
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "uisettings": "java",
+    "icon": "fa-java"
   },
   "backend": {
     "imageid": "java8"
