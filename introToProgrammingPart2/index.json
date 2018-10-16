@@ -18,7 +18,7 @@
           "target": "/home/scrapbook/"
         },
         {
-          "file": ".ShapePrinter.java",
+          "file": "ShapePrinter.java",
           "target": "/home/scrapbook/"
         }
       ]
