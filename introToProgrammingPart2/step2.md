@@ -53,10 +53,16 @@ Option 3: increment operator (++)
     notLong++;
 </pre>
 You can also prefix the increment operator like this: 
-<pre class="file">++notLong;</pre> More discussion on this in a later lesson.
+<pre class="file">
+    // Prefix increment
+    ++notLong;
+</pre> 
+More discussion on this in a later lesson.
 
 Finally, on a new line (yes, Enter again), print out the value with 
-<pre class="file">System.out.println(notLong);</pre>
+<pre class="file">
+    System.out.println(notLong);
+</pre>
 
 Compile and run your program. See what happens. You shouldn't get an error. If you do, you typed something incorrectly. Surprised by the result?
 
