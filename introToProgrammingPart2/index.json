@@ -17,20 +17,16 @@
         {
           "file": "ShapePrinter.java",
           "target": "/home/scrapbook/"
+        },
+        {
+          "file": "FunWithNumbers.java",
+          "target": "/home/scrapbook/tutorial/"
         }
       ]
     },
     "finish": {
       "text": "finish.md"
     }
-  },
-  "assets": {
-    "client": [
-      {
-        "file": "FunWithNumbers.java",
-        "target": "/home/scrapbook/tutorial/"
-      }
-    ]
   },
   "files" : [
     "NameThatThing.java"
