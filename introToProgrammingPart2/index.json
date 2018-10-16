@@ -4,7 +4,7 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Identifiers",
         "text": "step1.md",
         "answer": "solutions/NameThatThing.md"
       }
@@ -23,6 +23,14 @@
     "finish": {
       "text": "finish.md"
     }
+  },
+  "assets": {
+    "client": [
+      {
+        "file": "FunWithNumbers.java",
+        "target": "/home/scrapbook/tutorial/"
+      }
+    ]
   },
   "files" : [
     "NameThatThing.java"

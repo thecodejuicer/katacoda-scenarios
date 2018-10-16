@@ -95,7 +95,7 @@ There are 3 missing identifiers:
 - /\* identifier 2 \*/ is a variable identifier. In this case, it holds the name of the thing. Feel free to change "A Name" to something more meaningful.
 - /\* identifier 3 \*/ is a method identifier. This method prints the name of the thing. Name the method appropriately.
 
-Your task: replace the name placeholder (/* identifier # */) with a valid name.
+Your task: replace the name placeholder (/\* identifier \*/) with a valid name.
 
 Once they are filled in, compile the program and run it. If it doesn't compile, make sure the identifiers are valid.
 
