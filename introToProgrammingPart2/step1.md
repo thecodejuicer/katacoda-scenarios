@@ -64,8 +64,33 @@ class               // can't use a keyword
 
 ## Fill In the Blank
 Time to practice.
-A file named &quot;NameThatThing.java&quot; is open in the editor. 
-It has 3 missing identifiers:
+
+Copy this to the editor:
+<pre class="file" data-filename="NameThatThing.js" data-target="replace">/**
+ * A simple exercise in naming identifiers.
+ * Give each missing identifier a valid name.
+ */
+// Replace comments that look like /* identifier # */ with a valid name.
+public class /* identifier 1 */ {
+
+  // Name of the identifier
+  private static String /* identifier 2 */ = "A Name";
+
+  /**
+   * Method to print the identifer name to the terminal.
+   */
+  static void /* identifier 3 */() {
+    System.out.println("The name is: " + /* identifier 2 */);
+  }
+
+  public static void main(String[] args) {
+    // Call the method to print the name.
+    /* identifier 3 */();
+  }
+}
+</pre>
+
+There are 3 missing identifiers:
 - /* identifier 1 */ is a class identifier. In Java, a "public" class identifier must be exactly the same as the filename.
 - /* identifier 2 */ is a variable identifier. In this case, it holds the name of the thing. Feel free to change "A Name" to something more meaningful.
 - /* identifier 3 */ is a method identifier. This method prints the name of the thing. Name the method appropriately.
