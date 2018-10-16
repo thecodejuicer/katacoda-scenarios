@@ -100,5 +100,6 @@ Your task: replace the name placeholder (/* identifier # */) with a valid name.
 Once they are filled in, compile the program and run it. If it doesn't compile, make sure the identifiers are valid.
 
 Remember:  
-To compile, type `javac NameThatThing.java` in the terminal.  
-To run, type `java NameThatThing` in the terminal.
+To compile, type `javac NameThatThing.java`{{execute}} in the terminal.  
+To run, type `java NameThatThing`{{execute}} in the terminal.
+

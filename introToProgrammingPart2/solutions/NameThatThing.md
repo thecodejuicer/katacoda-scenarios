@@ -1,9 +1,10 @@
+# Example Solution
+This is an example of a working .java file. If yours didn't work, compare the two and try to get it working.
 <pre class="file">
 /**
  * A simple exercise in naming identifiers.
  * Give each missing identifier a valid name.
  */
-// Replace comments that look like /* identifier # */ with a valid name.
 public class NameThatThing {
 
   // Name of the identifier
