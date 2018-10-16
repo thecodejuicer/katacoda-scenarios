@@ -42,7 +42,7 @@ In Java, valid names:
 - Have an unlimited length
 - Begin with A-Z, a-z, underscore (\_) or dollar sign ($)
 - Additional characters can contain any of the above, along with numbers.
-- Cannot be a keyword
+- Cannot be a [keyword](https://en.wikipedia.org/wiki/List_of_Java_keywords "Java Keywords").
 
 #### Valid Identifiers
 These are examples of valid identifiers. They aren't all &quot;_good_,&quot; but they're all valid.
@@ -55,9 +55,9 @@ NineArtichokes_cost_$10
 ```
 
 #### Invalid Identifiers
-These are no good:
+These are all invalid:
 ```
-9times              // can't start witha  number)
+9times              // can't start witha number
 Spac35 are a N0 N0  // sorry, no spaces
 class               // can't use a keyword
 ```
@@ -91,9 +91,9 @@ public class /* identifier 1 */ {
 </pre>
 
 There are 3 missing identifiers:
-- /* identifier 1 */ is a class identifier. In Java, a "public" class identifier must be exactly the same as the filename.
-- /* identifier 2 */ is a variable identifier. In this case, it holds the name of the thing. Feel free to change "A Name" to something more meaningful.
-- /* identifier 3 */ is a method identifier. This method prints the name of the thing. Name the method appropriately.
+- /\* identifier 1 \*/ is a class identifier. In Java, a "public" class identifier must be exactly the same as the filename.
+- /\* identifier 2 \*/ is a variable identifier. In this case, it holds the name of the thing. Feel free to change "A Name" to something more meaningful.
+- /\* identifier 3 \*/ is a method identifier. This method prints the name of the thing. Name the method appropriately.
 
 Your task: replace the name placeholder (/* identifier # */) with a valid name.
 
