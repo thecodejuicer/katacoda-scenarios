@@ -1,4 +1,4 @@
-# Example Solution
+## Example Solution
 This is an example of a working .java file. If yours didn't work, compare the two and try to get it working.
 <pre class="file">
 /**

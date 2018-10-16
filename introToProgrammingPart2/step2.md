@@ -37,7 +37,8 @@ There are a few ways to do that (try all of them). I'll stick with the `notLong`
 
 Option 1: a normal assignment operation
 <pre class="file">
-    notLong = notLong + 1;
+    // Note: the funny notation here makes sure the result of the equation is a short. This is known as explicit typecasting.
+    notLong = (short)(notLong + 1);
 </pre>
 
 Option 2: shorthand assignment
@@ -55,4 +56,12 @@ Option 3: increment operator (++)
 
 Finally, on a new line (yes, Enter again), print out the value with `System.out.println(notLong);`
 
-Compile and run your program. See what happens.
+Compile and run your program. See what happens. You shouldn't get an error. If you do, you typed something incorrectly. Surprised by the result?
+
+Here is one more experiment similar to option 1.
+<pre class="file">
+    // The explicit typecasting has been removed.
+    notLong = notLong + 1;
+</pre>
+
+Try to compile it. You should get an error. Why? The compiler is being your friend. It's letting you know there is a data integrity problem. Something this friendly could have saved a $7 billion rocket from exploding: [Ariane 5 Overflow Bug](https://around.com/ariane.html).
