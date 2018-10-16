@@ -1,6 +1,8 @@
 {
   "title": "Introduction to Programming - Part 2",
-  "description": "Here, we dig into \"identifiers\" and talk about variables.",
+  "description": "Here, we dig into \"identifiers\" and talk about variables and data types.",
+  "difficulty": "Beginner",
+  "time": "30 minutes",
   "details": {
     "steps": [
       {
