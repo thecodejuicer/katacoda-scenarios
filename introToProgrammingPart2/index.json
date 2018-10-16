@@ -14,12 +14,12 @@
     "assets": {
       "client": [
         {
-          "file": "../assets/NameThatThing.java",
-          "target": "~/"
+          "file": "./assets/NameThatThing.java",
+          "target": "/home/scrapbook/"
         },
         {
-          "file": "../assets/ShapePrinter.java",
-          "target": "~/"
+          "file": "./assets/ShapePrinter.java",
+          "target": "/home/scrapbook"
         }
       ]
     },
