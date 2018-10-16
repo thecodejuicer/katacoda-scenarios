@@ -12,7 +12,8 @@
       },
       {
         "title": "Data Types",
-        "text": "step2.md"
+        "text": "step2.md",
+        "answer": "solutions/NumberFun.md"
       }
     ],
     "intro": {
