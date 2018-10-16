@@ -14,6 +14,10 @@
         "title": "Data Types",
         "text": "step2.md",
         "answer": "solutions/NumberFun.md"
+      },
+      {
+        "title": "Data Types",
+        "text": "step3.md"
       }
     ],
     "intro": {
