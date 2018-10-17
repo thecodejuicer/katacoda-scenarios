@@ -13,3 +13,13 @@ In memory, it would look something like this:
 address:  | 20 & 21 | 22 & 23 |
   value:  |   'H'   |   'i'   |
 </pre>
+
+Java abstracts all the memory stuff from us so we don't have to worry about it. We can use the identifier like it actually has the value we assign it.  
+Example:
+<pre class="file">
+// Assigning the value "Zebra" to the animalType identifier.
+String animalType = "Zebra";
+
+// This will print the string like we expect.
+System.out.println(animalType);
+</pre>
