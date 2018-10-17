@@ -1,4 +1,4 @@
-# Introduction to Programming - Part 2: Identifiers and Loops
+# Introduction to Programming - Part 2: Identifiers and Data Types
 # WORK IN PROGRESS
 In part 2, we will dig into identifiers. If you recall the brief intro to them in part 1, they are just the names the programmer gives objects so they can be reused. It is a simple concept, and _very_ important.
 
@@ -9,4 +9,3 @@ The last part of this &quot;scenario&quot; will teach loops (doing a task multip
 ## Key Takeaways
 - Understand valid identifier use.
 - Learn some of the primitive Java data types.
-- Using looping constructs (for, while and do-while)
