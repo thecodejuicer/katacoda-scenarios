@@ -26,3 +26,8 @@ String animalType = "Zebra";
 // This will print the string like we expect.
 System.out.println(animalType);
 </pre>
+
+Reference types will become more exciting when we start working with classes and creating our own objects. Patience, this will come soon.
+
+## Summary
+Now that we have finished some boring, yet very important details, the next lesson will put the knowledge to use with operators (like, arithmetic).
