@@ -8,8 +8,8 @@ The value we assigned takes up 4 bytes (32 bits since a character is 16 bits). T
 
 In memory, it would look something like this:
 <pre>
-    greeting
-           &darr;
+   greeting
+           &#10136;
 address:  | 20 & 21 | 22 & 23 |
   value:  |   'H'   |   'i'   |
 </pre>
