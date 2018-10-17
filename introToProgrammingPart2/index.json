@@ -7,17 +7,21 @@
     "steps": [
       {
         "title": "Identifiers",
-        "text": "step1.md",
+        "text": "step1_identifiers.md",
         "answer": "solutions/NameThatThing.md"
       },
       {
         "title": "Data Types",
-        "text": "step2.md",
+        "text": "step2_integers.md",
         "answer": "solutions/NumberFun.md"
       },
       {
         "title": "Data Types",
-        "text": "step3.md"
+        "text": "step3_reals.md"
+      },
+      {
+        "title": "Referential Types",
+        "text": "step4_reference.md"
       }
     ],
     "intro": {

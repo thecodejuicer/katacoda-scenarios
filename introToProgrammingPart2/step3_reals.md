@@ -47,3 +47,13 @@ Examples:
 boolean thisIsntTrue = false;
 boolean somethingTrue = true;
 </pre>
+
+### Last Note on Numbers
+Even though you can't use normal &quot;thousands separators,&quot; you can use one or more underscores between digits to make large numbers easier to read in Java.  
+Example:
+<pre class="file">
+long aBigNumber = 12_338_371_938_281;
+float someRealNumber = 12.832_182_994F;
+</pre>
+
+Lets move on to reference types.
