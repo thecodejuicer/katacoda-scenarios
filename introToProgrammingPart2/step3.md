@@ -1,5 +1,8 @@
 ## Primitive Data Types Continued 
-Enough integrals. What about real numbers? Like, the ones with decimal points? For this we move on to floating-point numbers.
+Enough integrals. What about real numbers? Like, the ones with decimal points? For this we move on to floating-point numbers.  
+
+This step doesn't have any guided examples (sorry). Just try things out.
+
 ### Floating-Point Types
 `float` is a 32-bit data type. The range is a bit different from the integral types. The reason why is _way_ outside the scope of this lesson. The magnitude of a float is approximately
 between 1.4&times;10<sup>-45</sup> to 3.4&times;10<sup>38</sup> (whether positive or negative);
@@ -36,3 +39,11 @@ Considering we haven't covered "constants," a constant is similar to a variable.
 #### A bizarre side-effect
 The way real numbers are represented has a neat side effect. There is 0 and -0. Yes. Negative zero.
 Although they are considered equal in Java.
+
+### Boolean
+This will be a short section. `boolean` identifiers hold one of two values: `true` or `false`. Literally.  
+Examples:
+<pre class="file">
+boolean thisIsntTrue = false;
+boolean somethingTrue = true;
+</pre>

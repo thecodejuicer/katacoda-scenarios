@@ -4,8 +4,6 @@ In part 2, we will dig into identifiers. If you recall the brief intro to them i
 
 Next, you will be introduced to some different data types and their purpose.
 
-The last part of this &quot;scenario&quot; will teach loops (doing a task multiple times). Another important concept in programming.
-
 ## Key Takeaways
 - Understand valid identifier use.
 - Learn some of the primitive Java data types.
