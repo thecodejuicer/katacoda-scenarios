@@ -1,0 +1,28 @@
+{
+  "title": "Introduction to Programming - Part 3",
+  "description": "This lesson focuses on operators. They're pretty important for doing anything useful.",
+  "difficulty": "Beginner",
+  "time": "30 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Operators",
+        "text": "step1_operators.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    }
+  },
+  "files" : [
+    "Operators.java"
+  ],
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uisettings": "java",
+    "icon": "fa-java"
+  },
+  "backend": {
+    "imageid": "java8"
+  }
+}
