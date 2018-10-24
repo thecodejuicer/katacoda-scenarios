@@ -8,6 +8,10 @@
       {
         "title": "Operators",
         "text": "step1_operators.md"
+      },
+      {
+        "title": "Binary Operators",
+        "text": "step2_binary_operators.md"
       }
     ],
     "intro": {
