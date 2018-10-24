@@ -42,7 +42,10 @@ public class Operators {
 
 Add this code to the editor. Type it!
 <pre class="file">
+// Starting value
 int baseValue = 0;
+
+System.out.println("*************************************");
 
 int firstValue = ++baseValue;
 // Print the values
@@ -59,6 +62,8 @@ System.out.println("baseValue: " + baseValue);
 
 System.out.println("baseValue--: " + baseValue--); // Notice the decrement here
 System.out.println("Final baseValue value: " + baseValue);
+
+System.out.println("*************************************");
 </pre>
 
 Before you compile and run it, try to predict the output. Write it down.  
