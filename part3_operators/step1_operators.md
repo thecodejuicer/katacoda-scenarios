@@ -91,9 +91,9 @@ Here is a list of all the unary operators in Java:
         <td>Logical compliment (sometimes referred to as &quot;not&quot). It inverts the value of a boolean.</td>
         <td>
             <pre class="file">
-            boolean changeMe = true;
-            // Now it's false.
-            changeMe = !changeMe;
+boolean changeMe = true;
+// Now it's false.
+changeMe = !changeMe;
             </pre>
         </td>
     </tr>
