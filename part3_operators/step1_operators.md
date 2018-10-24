@@ -68,8 +68,33 @@ Here is a list of all the unary operators in Java:
     <tr><td>Operator</td><td>Description</td><td>Example</td></tr>
     <tr>
         <td>+</td>
-        <td>Plus operator. Indicates positive values. Not necessary since numbers will be positive without it.</td>
+        <td>Unary plus operator. Indicates positive values.</td>
         <td><pre class="file">int myNumber = +1;</pre></td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>Unary minus operator. Indicates negative values and negates expressions.</td>
+        <td><pre class="file">short myNumber = -1;</pre></td>
+    </tr> 
+    <tr>
+        <td>++</td>
+        <td>Unary increment operator. Increments a value by 1.</td>
+        <td><pre class="file">myNumber++;</pre></td>
+    </tr>        
+    <tr>
+        <td>--</td>
+        <td>Unary decrement operator. Decrements a value by 1.</td>
+        <td><pre class="file">myNumber--;</pre></td>
+    </tr>        
+    <tr>
+        <td>!</td>
+        <td>Logical compliment (sometimes referred to as &quot;not&quot). It inverts the value of a boolean.</td>
+        <td>
+            <pre class="file">
+            boolean changeMe = true;
+            changeMe = !changeMe; // Now changeMe = false.
+            </pre>
+        </td>
     </tr>
 </tbody>
 </table>
