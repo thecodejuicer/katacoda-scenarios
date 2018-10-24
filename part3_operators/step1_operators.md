@@ -3,8 +3,8 @@ Operators: they make programming useful. Without them programs would do, pretty 
 An **operator** is a symbol that performs an action on operands. In Java, it can be one, two or three operands.
 
 What is an operand? It's the thing being operated on by the operator. That could be a few different things. In its simplest form, it would be, perhaps, a number. For example:  
-`1 + 2`
-1 and 2 are operands. &quot;+&quot; is the operator.
+`1 + 2`  
+&quot;1&quot; and &quot;2&quot; are operands. &quot;+&quot; is the operator.
 
 The operands don't have to be numbers. They could be variables, or even methods (covered in another lesson). They can even be the result of other operators!
 
@@ -18,6 +18,11 @@ It simply adds 1 to the operand.
 ```
 int someValue = 0;
 someValue++; // Now someValue equals 1.
+```
+
+There's also a decrement operator, which subtracts 1.
+```$java
+someValue--;
 ```
 
 Unary operators can use **prefix** or **postfix** notation.  
@@ -34,3 +39,12 @@ public class Operators {
   }
 }
 </pre>
+
+We will add 4 variables for this excercise.
+```java
+// Some variables to test unary operator behavior with.
+int incrementor = 0;
+int firstValue = ++incrementor;
+int secondValue = incrementor++;
+int thirdValue = incrementor--;
+```
