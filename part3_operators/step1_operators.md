@@ -34,7 +34,7 @@ Try it out. Let's write a simple program to see what happens when we print value
 Copy this skeleton code to the editor window.
 <pre class="file" data-filename="Operators.java" data-target="replace">
 public class Operators {
-  public void main(String args[]) {
+  public static void main(String args[]) {
     // Your code will go here.
   }
 }
@@ -49,9 +49,9 @@ int secondValue = baseValue++;
 int thirdValue = baseValue--;
 
 // Print the values
-System.out.println("firstValue: " + firstValue 
-                   + ", secondValue: " + secondValue 
-                   + ", thirdValue: " + thirdValue 
-                   + ", baseValue: " + baseValue--);
+System.out.println("firstValue: " + firstValue);
+System.out.println("secondValue: " + secondValue); 
+System.out.println("thirdValue: " + thirdValue);
+System.out.println("baseValue: " + baseValue--); // Notice the decrement here
 System.out.println("Final baseValue value: " + baseValue);
 </pre>
