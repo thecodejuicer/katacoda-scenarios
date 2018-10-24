@@ -40,7 +40,7 @@ public class Operators {
 }
 </pre>
 
-We will add 4 variables for this exercise.
+Add this code to the editor. Type it!
 <pre class="file">
 // Some variables to test unary operator behavior with.
 int baseValue = 0;
@@ -55,3 +55,21 @@ System.out.println("thirdValue: " + thirdValue);
 System.out.println("baseValue: " + baseValue--); // Notice the decrement here
 System.out.println("Final baseValue value: " + baseValue);
 </pre>
+
+Before you compile and run it, try to predict the output. Write it down.  
+
+After making your prediction, compile and run the code. Here are the commands for the last time (after this I will assume you know how to compile and run your code).  
+`javac Operators.java`{{execute}}  
+`java Operators`{{execute}}
+
+Here is a list of all the unary operators in Java:
+<table>
+<tbody>
+    <tr><td>Operator</td><td>Description</td><td>Example</td></tr>
+    <tr>
+        <td>+</td>
+        <td>Plus operator. Indicates positive values. Not necessary since numbers will be positive without it.</td>
+        <td><pre class="file">int myNumber = +1;</pre></td>
+    </tr>
+</tbody>
+</table>
