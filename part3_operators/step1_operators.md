@@ -21,7 +21,7 @@ someValue++; // Now someValue equals 1.
 ```
 
 There's also a decrement operator, which subtracts 1.
-```$java
+```
 someValue--;
 ```
 
@@ -40,11 +40,18 @@ public class Operators {
 }
 </pre>
 
-We will add 4 variables for this excercise.
-```java
+We will add 4 variables for this exercise.
+<pre class="file">
 // Some variables to test unary operator behavior with.
-int incrementor = 0;
-int firstValue = ++incrementor;
-int secondValue = incrementor++;
-int thirdValue = incrementor--;
-```
+int baseValue = 0;
+int firstValue = ++baseValue;
+int secondValue = baseValue++;
+int thirdValue = baseValue--;
+
+// Print the values
+System.out.println("firstValue: " + firstValue 
+                   + ", secondValue: " + secondValue 
+                   + ", thirdValue: " + thirdValue 
+                   + ", baseValue: " + baseValue--);
+System.out.println("Final baseValue value: " + baseValue);
+</pre>
