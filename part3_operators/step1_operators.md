@@ -65,7 +65,7 @@ After making your prediction, compile and run the code. Here are the commands fo
 Here is a list of all the unary operators in Java:
 <table>
 <tbody>
-    <tr><td>Operator</td><td>Description</td><td>Example</td></tr>
+    <tr><td>Operator</td><td width="60%">Description</td><td>Example</td></tr>
     <tr>
         <td>+</td>
         <td>Unary plus operator. Indicates positive values.</td>
@@ -92,7 +92,8 @@ Here is a list of all the unary operators in Java:
         <td>
             <pre class="file">
             boolean changeMe = true;
-            changeMe = !changeMe; // Now changeMe = false.
+            // Now it's false.
+            changeMe = !changeMe;
             </pre>
         </td>
     </tr>
