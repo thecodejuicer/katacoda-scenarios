@@ -42,17 +42,22 @@ public class Operators {
 
 Add this code to the editor. Type it!
 <pre class="file">
-// Some variables to test unary operator behavior with.
 int baseValue = 0;
-int firstValue = ++baseValue;
-int secondValue = baseValue++;
-int thirdValue = baseValue--;
 
+int firstValue = ++baseValue;
 // Print the values
-System.out.println("firstValue: " + firstValue);
+System.out.println("firstValue: " + firstValue );
+System.out.println("baseValue: " + baseValue);
+
+int secondValue = baseValue++;
 System.out.println("secondValue: " + secondValue); 
+System.out.println("baseValue: " + baseValue);
+
+int thirdValue = baseValue--;
 System.out.println("thirdValue: " + thirdValue);
-System.out.println("baseValue: " + baseValue--); // Notice the decrement here
+System.out.println("baseValue: " + baseValue);
+
+System.out.println("baseValue--: " + baseValue--); // Notice the decrement here
 System.out.println("Final baseValue value: " + baseValue);
 </pre>
 
@@ -62,7 +67,11 @@ After making your prediction, compile and run the code. Here are the commands fo
 `javac Operators.java`{{execute}}  
 `java Operators`{{execute}}
 
-Here is a list of all the unary operators in Java:
+Did your prediction match the actual results? The reason they turned out like they did is because of operator precedence rules. 
+If you go back to rules of mathematics, it is simply the enforced order of operations. We will talk about that more later in this lesson.
+For now, it is enough to know that order matters.
+
+Here is a list of all the unary operators in Java. Try them out in the editor window to see them in action.
 <table>
 <tbody>
     <tr><td>Operator</td><td width="60%">Description</td><td>Example</td></tr>
@@ -99,3 +108,5 @@ changeMe = !changeMe;
     </tr>
 </tbody>
 </table>
+
+Let's move on to **binary** operators.
