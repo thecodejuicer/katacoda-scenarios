@@ -15,10 +15,12 @@ Notice there are some extra spaces between the operands and the operator. I put 
 In Java, whitespace doesn't matter. 
 It is ignored. You can put as many spaces, tabs and new lines between statements as you wish. Just keep in mind, readability is important.  
 The example above would work if it was written like this:
-```
+
+<pre class="file">
 int myOperand;
 myOperand = 293_378_218;
-```
+</pre>
+
 Or this:
 ```
 int              myOperand
