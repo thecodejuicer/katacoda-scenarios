@@ -29,7 +29,7 @@ int              myOperand
 </pre>
 I'm sure you see how poorly formatted code is much harder to follow. Even for such a simple program!
 ### Case Sensitivity
-Another worthwhile note: **case matters**! MyVariable is not the same as myVariable. Java is picky about case.
+Another worthwhile note: **case matters**\! MyVariable is not the same as myVariable. Java is picky about case.
 
 ### Back to operators
 #### Assignment
