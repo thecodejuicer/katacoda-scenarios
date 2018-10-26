@@ -1,5 +1,4 @@
-# Operators continued
-## Binary Operators
+# Binary Operators
 Binary operators operate on _two_ operands (thus the 'bi' prefix).
 
 The binary operators all use *infix* notiation. That means the operator goes between the operands. Like this:
@@ -71,7 +70,7 @@ Declaration and assignment in action:
 </pre>
 
 ##### Order of Operations
-Just like in arithmetic, Java enforces an order of operations. We will cover it in more detail later. I bring it up now because of the example above.
+Just like in arithmetic, Java enforces an order of operations \(as do most languages\). We will cover it in more detail later. I bring it up now because the assignment operator is a special case.
 ```
 l1 = l2 = l3 = 183L;
 ```
@@ -79,4 +78,6 @@ In this case, the operations are processed from right to left. The assignment op
 
 <pre class="file">l1 = l2 = l3 = 72 + 12;</pre>
 
-72 \+ 12 will be evaluated before being assigned to l3, l2, and finally l1.
+72 \+ 12 will be evaluated before being assigned to `l3`, `l2`, and finally `l1`. What makes this so special? All other binary operators are evaluated from left to right. _ONLY_ the assignment operator is evaluated from right to left.
+
+This discussion is getting long. Let's do some exercises. Move along to the next step. Go ahead. Click Continue.  

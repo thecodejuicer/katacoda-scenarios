@@ -6,7 +6,7 @@ What is an operand? It's the thing being operated on by the operator. That could
 `1 + 2`  
 &quot;1&quot; and &quot;2&quot; are operands. &quot;+&quot; is the operator.
 
-The operands don't have to be numbers. They could be variables, or even methods (covered in another lesson). They can even be the result of other operators!
+The operands don't have to be numbers. They could be variables, or even methods \(covered in another lesson\). They can even be the result of other operators\!
 
 Before we get into those details, let's talk about the different types of operators.
 
@@ -32,6 +32,7 @@ Unary operators can use **prefix** or **postfix** notation.
 Does the order matter? It can.
 Try it out. Let's write a simple program to see what happens when we print values with prefix vs. postfix.
 Copy this skeleton code to the editor window.
+
 <pre class="file" data-filename="Operators.java" data-target="replace">
 public class Operators {
   public static void main(String args[]) {
@@ -41,6 +42,7 @@ public class Operators {
 </pre>
 
 Add this code to the editor. Type it!
+
 <pre class="file">
 // Starting value
 int baseValue = 0;
