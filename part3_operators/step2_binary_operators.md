@@ -78,3 +78,5 @@ l1 = l2 = l3 = 183L;
 In this case, the operations are processed from right to left. The assignment operator will complete any expressions on the right, before assigning a value to the operand on the left. This means we can do things like this:
 
 <pre class="file">l1 = l2 = l3 = 72 + 12;</pre>
+
+72 \+ 12 will be evaluated before being assigned to l3, l2, and finally l1.
