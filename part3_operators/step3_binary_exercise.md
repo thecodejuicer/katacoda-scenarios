@@ -30,9 +30,9 @@ We will use addition, subtraction, multiplication and division. You'll want to k
         <td><pre class="file">myNumber - 48;</pre></td>
     </tr> 
     <tr>
-        <td>*</td>
+        <td>\*</td>
         <td>Multiplication operator.</td>
-        <td><pre class="file">myNumber * anotherNumber;</pre></td>
+        <td><pre class="file">myNumber \* anotherNumber;</pre></td>
     </tr>        
     <tr>
         <td>/</td>
