@@ -77,11 +77,11 @@ Here are the steps. See if you can figure out the code.
 
 1. Print the final result like so: `System.out.println(birthdayDate);`
 
-If you did everything correctly, you will see your birthdate as a float value. If the number is wrong, you did something wrong.
+Compile and run your program. If you did everything correctly, you will see your birthdate as a float value. If the number is wrong, you did something wrong.
 
 If you are having trouble, look at the example solution and try to get yours working.
 
 Once you get it working, change the `float` to an `int` and see what happens. You won't get the same answer.
 
 ### Ugly code.
-The steps above, if followed exactly, make for ugly code \(see the solution to know what I mean\). We will build on this example to tidy it up. One quick improvement would be to add two more variables. One for the birth month, the other for birth day.  We'll discuss that later.
+The steps above, if followed exactly, make for ugly code \(see the solution to know what I mean\). We will build on this example to tidy it up. One quick improvement would be to add two more variables. One for the birth month, the other for birth day. We'll discuss that later.
