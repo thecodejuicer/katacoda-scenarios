@@ -15,7 +15,8 @@
       },
       {
         "title": "Binary Exercise",
-        "text": "step3_binary_exercise.md"
+        "text": "step3_binary_exercise.md",
+        "answer": "solutions/ExampleBirthday.md"
       }
     ],
     "intro": {
