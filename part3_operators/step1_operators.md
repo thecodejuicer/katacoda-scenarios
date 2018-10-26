@@ -79,7 +79,7 @@ For now, it is enough to know that order matters.
 Here is a list of all the unary operators in Java. Try them out in the editor window to see them in action.
 <table>
 <tbody>
-    <tr><td>Operator</td><td width="60%">Description</td><td>Example</td></tr>
+    <tr><th>Operator</th><th width="60%">Description</th><th>Example</th></tr>
     <tr>
         <td>+</td>
         <td>Unary plus operator. Indicates positive values.</td>
