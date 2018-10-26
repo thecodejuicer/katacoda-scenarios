@@ -85,3 +85,5 @@ Once you get it working, change the `float` to an `int` and see what happens. Yo
 
 ### Ugly code.
 The steps above, if followed exactly, make for ugly code \(see the solution to know what I mean\). We will build on this example to tidy it up. One quick improvement would be to add two more variables. One for the birth month, the other for birth day. We'll discuss that later.
+
+Let's move on to the next type of operator for now.

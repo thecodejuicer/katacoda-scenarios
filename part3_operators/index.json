@@ -17,6 +17,10 @@
         "title": "Binary Exercise",
         "text": "step3_binary_exercise.md",
         "answer": "solutions/ExampleBirthday.md"
+      },
+      {
+        "title": "Ternary Operators",
+        "text": "step4_ternary_operators.md"
       }
     ],
     "intro": {
