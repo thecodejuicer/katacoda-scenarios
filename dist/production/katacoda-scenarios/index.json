@@ -19,8 +19,8 @@
         "answer": "solutions/ExampleBirthday.md"
       },
       {
-        "title": "Comparison Operators",
-        "text": "step4_binary_comparison.md"
+        "title": "Ternary Operators",
+        "text": "step4_ternary_operators.md"
       }
     ],
     "intro": {
